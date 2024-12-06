@@ -18,10 +18,24 @@
             <img src="./MindLoo logo.png" alt="Logo" class="logo">
             <div class="form">
                 <form action="" method="post">
-                    <input type="text" class="inputField" placeholder="Full Name" required/>
-                    <input type="text" class="inputField" placeholder="Company"/>
-                    <input type="email" class="inputField" placeholder="Email"/>
-                    <input type="tel" class="inputField" placeholder="Phone"/>
+                    <input type="text" value="name" class="inputField" placeholder="Full Name" required/>
+                    <input type="text" value="company" class="inputField" placeholder="Company"/>
+                    <input type="email" value="email" class="inputField" placeholder="Email"/>
+                    <input type="tel" value="tel" class="inputField" placeholder="Phone"/>
+                    
+                    <div class="radioWrapper">
+                      <div class="first">
+                        <input type="radio" id="specialist" name="role" class=""/>
+                        <label for="specialist">Specialist</label><br>
+
+                      </div>
+                      <div class="second">
+                        <input type="radio" id="Patient" name="role" class=""/>
+                        <label for="Patient">Patient</label>
+
+                      </div>
+                    </div>
+                      <br>
                     <button type="input">Register</button>
                 </form>
                 <p>Powered by <a href="http://eightcode.com" target="_blank" rel="noopener noreferrer">Eight Code</a></p>
